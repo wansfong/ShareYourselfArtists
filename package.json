@@ -1,0 +1,22 @@
+{
+  "name": "shareyourselfartists",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wansfong/ShareYourselfArtists.git"
+  },
+  "author": "gordon ramsay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wansfong/ShareYourselfArtists/issues"
+  },
+  "homepage": "https://github.com/wansfong/ShareYourselfArtists#readme",
+  "dependencies": {
+    "vue": "^2.5.17"
+  }
+}
