@@ -17,20 +17,12 @@
   },
   "homepage": "https://github.com/wansfong/ShareYourselfArtists#readme",
   "dependencies": {
-<<<<<<< HEAD
-<<<<<<< HEAD
     "axios": "^0.18.0",
     "fetch": "^1.1.0",
     "vue": "^2.5.17",
     "vuetify": "^1.2.9",
-    "vuex": "^3.0.1"
-=======
-    "vue": "^2.5.17",
+    "vuex": "^3.0.1",
+    "vue-firebase": "^1.0.8",
     "vue-firebase": "^1.0.8"
->>>>>>> 56ea68b2aa9babe2e97e77ab98c6ff3e3da4ed3e
-=======
-    "vue": "^2.5.17",
-    "vue-firebase": "^1.0.8"
->>>>>>> 56ea68b2aa9babe2e97e77ab98c6ff3e3da4ed3e
   }
 }
