@@ -1,6 +1,10 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
+    <div>
+      <input v-model="msg" debounce="500" placeholder="put text here!">
+    </div>
+    
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
     <ul>
@@ -24,7 +28,7 @@ export default {
   name: 'app',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: ''
     }
   }
 }
