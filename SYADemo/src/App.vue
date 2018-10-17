@@ -28,7 +28,11 @@ export default {
   name: 'app',
   data () {
     return {
+<<<<<<< HEAD
       msg: ''
+=======
+      msg: 'Welcome to CMPS183!!'
+>>>>>>> 56ea68b2aa9babe2e97e77ab98c6ff3e3da4ed3e
     }
   }
 }
