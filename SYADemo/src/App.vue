@@ -4,6 +4,13 @@
     <div>
       <input v-model="msg" debounce="500" placeholder="put text here!">
     </div>
+
+    <div>
+      <article v-for="(item, idx) in dummyitems" :key="idx">
+        <img :src="item.image">
+        <h1>{{ item.name }}</h1>
+      </article>
+    </div>
     
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
@@ -24,11 +31,20 @@
 </template>
 
 <script>
+
+import { db } from './main'
+
 export default {
   name: 'app',
   data () {
     return {
-      msg: ''
+      msg: '',
+      dummyitems: []
+    }
+  },
+   firestore () {
+    return {
+      dummyitems: db.collection('dummyitems').orderBy('createdAt')
     }
   }
 }
